@@ -8,14 +8,14 @@ public class controladorCamara : MonoBehaviour
     Vector3 posicionRelativa;
     
 
-    // Start is called before the first frame update
+   
     void Start()
     {
         posicionRelativa = transform.position - jugador.transform.position;
        
     }
 
-    // Update is called once per frame
+  
     void LateUpdate()
     {
          transform.position = jugador.transform.position + posicionRelativa;
