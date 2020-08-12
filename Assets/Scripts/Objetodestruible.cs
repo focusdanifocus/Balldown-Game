@@ -6,7 +6,9 @@ public class Objetodestruible : MonoBehaviour
 {
     public GameObject bloque;
     
+    
     public void  OnCollisionEnter() {
         Destroy(bloque,2f);
+        
     }
 }
