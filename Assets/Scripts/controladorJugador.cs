@@ -19,6 +19,7 @@ public class controladorJugador : MonoBehaviour
         Vector3 movimiento = new Vector3(movimientoHorizontal,0,movimientoVertical);
         //FISICAS
         rbJugador.AddForce(movimiento * velocidad);
+        Debug.Log (rbJugador.velocity);
 
     }
 }

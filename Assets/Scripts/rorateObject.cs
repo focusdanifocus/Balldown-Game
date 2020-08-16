@@ -9,8 +9,8 @@ public class rorateObject : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        transform.Rotate(rotation * speedRotation);
+        transform.Rotate(rotation * speedRotation * Time.deltaTime);
     }
 }
