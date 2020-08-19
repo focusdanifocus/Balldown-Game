@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Objetodestruible : MonoBehaviour
 {
+    public float deathtime;
     public GameObject bloque;
     
     
     public void  OnCollisionEnter() {
-        Destroy(bloque,2f);
+        Destroy(bloque,deathtime);
         
     }
 }
