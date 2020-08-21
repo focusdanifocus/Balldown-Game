@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class controladorJugador : MonoBehaviour
 {
@@ -8,9 +9,16 @@ public class controladorJugador : MonoBehaviour
     public Rigidbody rbJugador;
     public float velocidad;
     public Vector3 posicioninicial;
+    
 
     void Start() {
         posicioninicial = transform.position;
+    }
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape)){
+            Application.Quit();
+        }
     }
   
     
@@ -30,8 +38,11 @@ public class controladorJugador : MonoBehaviour
     }
     public void Resetear() 
     {
-        transform.position = posicioninicial;
-        rbJugador.velocity = Vector3.zero;
+        //transform.position = posicioninicial;
+        //rbJugador.velocity = Vector3.zero;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
+        
     }
     
 }
