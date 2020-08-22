@@ -8,12 +8,8 @@ public class controladorJugador : MonoBehaviour
     //Llamar el componente Rigidbody del jugador
     public Rigidbody rbJugador;
     public float velocidad;
-    public Vector3 posicioninicial;
-    
 
-    void Start() {
-        posicioninicial = transform.position;
-    }
+
     public void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape)){
@@ -21,8 +17,6 @@ public class controladorJugador : MonoBehaviour
         }
     }
   
-    
-
     
     public void FixedUpdate()
     {
@@ -32,17 +26,12 @@ public class controladorJugador : MonoBehaviour
         Vector3 movimiento = new Vector3(movimientoHorizontal,0,movimientoVertical);
         //FISICAS
         rbJugador.AddForce(movimiento * velocidad * Time.deltaTime);
-        
-        
-        
+         
     }
+
     public void Resetear() 
     {
-        //transform.position = posicioninicial;
-        //rbJugador.velocity = Vector3.zero;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        
-        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex) 
     }
     
 }

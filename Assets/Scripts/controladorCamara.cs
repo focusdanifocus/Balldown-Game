@@ -6,8 +6,6 @@ public class controladorCamara : MonoBehaviour
 {
     public GameObject jugador;
     Vector3 posicionRelativa;
-    
-
    
     void Start()
     {
