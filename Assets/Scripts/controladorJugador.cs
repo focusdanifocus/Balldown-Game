@@ -31,7 +31,7 @@ public class controladorJugador : MonoBehaviour
 
     public void Resetear() 
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex) 
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     
 }
