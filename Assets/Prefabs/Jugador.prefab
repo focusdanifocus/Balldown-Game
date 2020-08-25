@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 090c57043d4ab7a48b660b7140042ffc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -124,4 +124,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rbJugador: {fileID: 7679870662196765470}
   velocidad: 7000
-  posicioninicial: {x: 0, y: 0, z: 0}

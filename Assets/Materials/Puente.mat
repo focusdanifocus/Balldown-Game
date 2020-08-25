@@ -8,7 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Puente
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+  m_Shader: {fileID: -6465566751694194690, guid: 1e0f3b2eccbb7cb428f5261d24970f34,
+    type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -73,5 +74,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
+    - Color_D343B673: {r: 0.5411765, g: 0.2980392, b: 0.3137255, a: 0}
     - _Color: {r: 0.5411765, g: 0.29803923, b: 0.31245643, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

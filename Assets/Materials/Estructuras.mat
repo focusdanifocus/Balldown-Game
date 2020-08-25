@@ -74,6 +74,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - Color_7FC4F26A: {r: 0.31861648, g: 0.25355998, b: 0.6981132, a: 0}
+    - Color_7FC4F26A: {r: 0.2263537, g: 0.14542542, b: 0.7169812, a: 1}
     - _Color: {r: 0.29250592, g: 0.23529412, b: 0.7254902, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
