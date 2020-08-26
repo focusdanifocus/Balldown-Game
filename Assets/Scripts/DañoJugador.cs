@@ -9,6 +9,7 @@ public class DañoJugador : MonoBehaviour
     public void OnCollisionEnter(Collision other) {
         
     
+        Debug.Log("Colision");
         jugador.Resetear();
     } 
 }
