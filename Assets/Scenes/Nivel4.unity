@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4370861, g: 0.4847967, b: 0.5650635, a: 1}
+  m_IndirectSpecularColor: {r: 0.17307977, g: 0.2163192, b: 0.29832363, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -783,7 +783,7 @@ Camera:
   field of view: 88
   orthographic: 0
   orthographic size: 5
-  m_Depth: -1.49
+  m_Depth: -1.46
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -792,7 +792,7 @@ Camera:
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -1195,6 +1195,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781945154920262709, guid: 68956babdf668bd479c20b09f9514e28,
+        type: 3}
+      propertyPath: m_Depth
+      value: -1.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 7781945154920262709, guid: 68956babdf668bd479c20b09f9514e28,
+        type: 3}
+      propertyPath: m_AllowMSAA
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7781945154920262706, guid: 68956babdf668bd479c20b09f9514e28,
         type: 3}
