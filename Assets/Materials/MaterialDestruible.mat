@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: MaterialDestruible
-  m_Shader: {fileID: -6465566751694194690, guid: bf6efb44f0c84774e8ae13c5a8e7b49f,
+  m_Shader: {fileID: -6465566751694194690, guid: 96070ae327d5beb4abd55da80e07be18,
     type: 3}
   m_ShaderKeywords: _ALPHAPREMULTIPLY_ON
   m_LightmapFlags: 4
@@ -80,6 +80,7 @@ Material:
     - _ditherSize: 4.09
     - _opacity: -0.12
     m_Colors:
+    - Color_3B3DE628: {r: 0, g: 0, b: 0, a: 0.19215687}
     - Color_5B7E6C6B: {r: 0, g: 0, b: 0, a: 0}
     - _Color: {r: 0.5754717, g: 0.5754717, b: 0.5754717, a: 0.5137255}
     - _Emission: {r: 0, g: 0, b: 0, a: 0.29411766}
