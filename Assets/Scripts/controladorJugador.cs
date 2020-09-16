@@ -12,6 +12,7 @@ public class controladorJugador : MonoBehaviour
 
     public void Update()
     {
+        //Sales del juego si apretas la tecla Escape
         if (Input.GetKeyDown(KeyCode.Escape)){
             Application.Quit();
         }
@@ -20,17 +21,17 @@ public class controladorJugador : MonoBehaviour
     
     public void FixedUpdate()
     {
-        //CONTROLADOR del jugador
+        //Almacenar el movimiento del analogo o las teclas de dirección
         float movimientoHorizontal = Input.GetAxis("Horizontal");
         float movimientoVertical = Input.GetAxis("Vertical");
         Vector3 movimiento = new Vector3(movimientoHorizontal,0,movimientoVertical);
-        //FISICAS
+        //Añado una fuerza al Rigidbody del jugador
         rbJugador.AddForce(movimiento * velocidad * Time.deltaTime);
          
     }
 
     public void Resetear() 
-    {
+    {   // Resetea el nivel si mueres o pierdes
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     
