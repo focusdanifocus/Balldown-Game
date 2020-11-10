@@ -8,6 +8,7 @@ public class controladorJugador : MonoBehaviour
     //Llamar el componente Rigidbody del jugador
     public Rigidbody rbJugador;
     public float velocidad;
+    public float velocidadCaida;
 
 
     public void Update()
@@ -27,12 +28,24 @@ public class controladorJugador : MonoBehaviour
         Vector3 movimiento = new Vector3(movimientoHorizontal,0,movimientoVertical);
         //Añado una fuerza al Rigidbody del jugador
         rbJugador.AddForce(movimiento * velocidad * Time.deltaTime);
+        
+
+        velocidadCaida = -(rbJugador.velocity.y);
+        
+        if(velocidadCaida > 20 ){
+            Debug.Log("Vas Rapido!");
+        }
+        
          
     }
 
     public void Resetear() 
     {   // Resetea el nivel si mueres o pierdes
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
     }
+
+    
+  
     
 }
