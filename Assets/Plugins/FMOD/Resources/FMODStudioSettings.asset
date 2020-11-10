@@ -15,8 +15,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: 
-  sourceBankPath: 
+  sourceProjectPath: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/BallDownGame.fspro
+  sourceBankPath: ..\..\..\Meet Design\DAGS\Proyectos FMOD\BallDownGame\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -58,7 +58,9 @@ MonoBehaviour:
     Value: 0
   - Platform: 20
     Value: 0
-  BankDirectorySettings: []
+  BankDirectorySettings:
+  - Platform: 2
+    Value: Desktop
   VirtualChannelSettings:
   - Platform: 1
     Value: 1024
@@ -74,8 +76,11 @@ MonoBehaviour:
   - Platform: 20
     Value: 32
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - musica
+  - SoundFX
   BanksToLoad: []
-  LiveUpdatePort: 9264
+  LiveUpdatePort: 5757
   AndroidUseOBB: 0
