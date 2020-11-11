@@ -82,5 +82,5 @@ MonoBehaviour:
   - musica
   - SoundFX
   BanksToLoad: []
-  LiveUpdatePort: 5757
+  LiveUpdatePort: 9264
   AndroidUseOBB: 0

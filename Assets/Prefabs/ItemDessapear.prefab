@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4447315335683523925}
   - component: {fileID: 4447315335683523935}
   - component: {fileID: 4447315335683523934}
+  - component: {fileID: 7386464771706241245}
   m_Layer: 0
   m_Name: ItemDessapear
   m_TagString: Untagged
@@ -324,6 +325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 706abc990e6e3cb4087e07ad901b6440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 45
 --- !u!114 &4447315335683523935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -337,6 +339,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloque2: {fileID: 0}
+  This: {fileID: 0}
 --- !u!54 &4447315335683523934
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -353,3 +356,26 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7386464771706241245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4447315335683523926}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  Event: event:/DROP
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0

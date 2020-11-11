@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5309928121143077685}
   - component: {fileID: 5309928121143077711}
   - component: {fileID: 5309928121143077708}
+  - component: {fileID: -6028245458049816387}
   m_Layer: 0
   m_Name: ItemAppear
   m_TagString: Untagged
@@ -303,6 +304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 706abc990e6e3cb4087e07ad901b6440, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  rotationSpeed: 45
 --- !u!54 &5309928121143077711
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -332,3 +334,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bloque: {fileID: 0}
+  ItemD: {fileID: 0}
+--- !u!114 &-6028245458049816387
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5309928121143077684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: Untagged
+  Event: event:/DROP
+  PlayEvent: 3
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
