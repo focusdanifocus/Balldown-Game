@@ -37,10 +37,33 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/Build/Desktop/SoundFX.bank
   Name: SoundFX
-  lastModified: 637406370586090589
+  lastModified: 637406381710006840
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-2953472583431747247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/plataforma rompible
+  m_EditorClassIdentifier: 
+  Path: event:/plataforma rompible
+  guid: 75c33c2c2fc0ae4d9e6181631fc7208a
+  Banks:
+  - {fileID: -5187723527991384147}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 2350
 --- !u!114 &-1084308863185733305
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55,7 +78,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/Build/Desktop/musica.bank
   Name: musica
-  lastModified: 637406370586060587
+  lastModified: 637406381709806829
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -79,13 +102,38 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 7718535142253012414}
   - {fileID: -5559356140980945574}
+  - {fileID: -2953472583431747247}
+  - {fileID: 4700778810346277573}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8232251700583527002}
   StringsBanks:
   - {fileID: 5351113511657391762}
-  stringsBankWriteTime: 637406370585850575
+  stringsBankWriteTime: 637406381709596817
   cacheVersion: 4
+--- !u!114 &4700778810346277573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DROP
+  m_EditorClassIdentifier: 
+  Path: event:/DROP
+  guid: 9715aa2fd38a654586910bbaf0a0085f
+  Banks:
+  - {fileID: -5187723527991384147}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &5351113511657391762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100,11 +148,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637406370585850575
+  lastModified: 637406381709596817
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 880
+    Value: 966
   Exists: 1
 --- !u!114 &7718535142253012414
 MonoBehaviour:
@@ -143,7 +191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637406370585820573
+  lastModified: 637406381709576816
   LoadResult: 0
   FileSizes: []
   Exists: 1

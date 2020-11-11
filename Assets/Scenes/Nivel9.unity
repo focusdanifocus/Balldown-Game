@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -653,6 +653,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 201883029}
     m_Modifications:
+    - target: {fileID: -1417561613936237091, guid: 81901501e28b4b8458b3ced5d4a08721,
+        type: 3}
+      propertyPath: CollisionTag
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: -1417561613936237091, guid: 81901501e28b4b8458b3ced5d4a08721,
+        type: 3}
+      propertyPath: PlayEvent
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1180071038448239654, guid: 81901501e28b4b8458b3ced5d4a08721,
         type: 3}
       propertyPath: m_Name
@@ -716,7 +726,7 @@ PrefabInstance:
     - target: {fileID: 8802243922919866727, guid: 81901501e28b4b8458b3ced5d4a08721,
         type: 3}
       propertyPath: deathtime
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81901501e28b4b8458b3ced5d4a08721, type: 3}
@@ -881,7 +891,7 @@ PrefabInstance:
     - target: {fileID: 8802243922919866727, guid: 81901501e28b4b8458b3ced5d4a08721,
         type: 3}
       propertyPath: deathtime
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81901501e28b4b8458b3ced5d4a08721, type: 3}
@@ -1322,7 +1332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CollisionTag: 
   Event: event:/musica
-  PlayEvent: 1
+  PlayEvent: 11
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -1863,7 +1873,7 @@ PrefabInstance:
     - target: {fileID: 8802243922919866727, guid: 81901501e28b4b8458b3ced5d4a08721,
         type: 3}
       propertyPath: deathtime
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81901501e28b4b8458b3ced5d4a08721, type: 3}
@@ -2245,7 +2255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 775891264, guid: 6b998e456efdd52458e0d02ba455d203, type: 3}
       propertyPath: deathtime
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 775891264, guid: 6b998e456efdd52458e0d02ba455d203, type: 3}
       propertyPath: bloque
