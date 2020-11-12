@@ -1103,12 +1103,12 @@ PrefabInstance:
     - target: {fileID: 420691357082704784, guid: 821c00ebb65303148a9abd20783eb70c,
         type: 3}
       propertyPath: m_Size.y
-      value: 2.983902
+      value: 2.069641
       objectReference: {fileID: 0}
     - target: {fileID: 420691357082704784, guid: 821c00ebb65303148a9abd20783eb70c,
         type: 3}
       propertyPath: m_Center.y
-      value: 2.1787796
+      value: 1.7216492
       objectReference: {fileID: 0}
     - target: {fileID: 420691357082704784, guid: 821c00ebb65303148a9abd20783eb70c,
         type: 3}

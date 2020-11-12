@@ -232,7 +232,7 @@ PrefabInstance:
     - target: {fileID: 420691357082704782, guid: 821c00ebb65303148a9abd20783eb70c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -99
+      value: -99.9
       objectReference: {fileID: 0}
     - target: {fileID: 420691357082704782, guid: 821c00ebb65303148a9abd20783eb70c,
         type: 3}
@@ -284,6 +284,11 @@ PrefabInstance:
       propertyPath: Gestor
       value: 
       objectReference: {fileID: 1249491116}
+    - target: {fileID: 420691357082704785, guid: 821c00ebb65303148a9abd20783eb70c,
+        type: 3}
+      propertyPath: waitTimeload
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 420691357082704784, guid: 821c00ebb65303148a9abd20783eb70c,
         type: 3}
       propertyPath: m_Size.x

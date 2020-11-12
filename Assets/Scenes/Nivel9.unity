@@ -383,7 +383,7 @@ PrefabInstance:
     - target: {fileID: 420691357082704782, guid: 821c00ebb65303148a9abd20783eb70c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -130.9
+      value: -131.18
       objectReference: {fileID: 0}
     - target: {fileID: 420691357082704782, guid: 821c00ebb65303148a9abd20783eb70c,
         type: 3}
@@ -458,12 +458,12 @@ PrefabInstance:
     - target: {fileID: 420691357082704784, guid: 821c00ebb65303148a9abd20783eb70c,
         type: 3}
       propertyPath: m_Size.y
-      value: 3.7421265
+      value: 3.046173
       objectReference: {fileID: 0}
     - target: {fileID: 420691357082704784, guid: 821c00ebb65303148a9abd20783eb70c,
         type: 3}
       propertyPath: m_Center.y
-      value: 0.9095154
+      value: 0.5615387
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 821c00ebb65303148a9abd20783eb70c, type: 3}
@@ -653,16 +653,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 201883029}
     m_Modifications:
-    - target: {fileID: -1417561613936237091, guid: 81901501e28b4b8458b3ced5d4a08721,
-        type: 3}
-      propertyPath: CollisionTag
-      value: Untagged
-      objectReference: {fileID: 0}
-    - target: {fileID: -1417561613936237091, guid: 81901501e28b4b8458b3ced5d4a08721,
-        type: 3}
-      propertyPath: PlayEvent
-      value: 7
-      objectReference: {fileID: 0}
     - target: {fileID: 1180071038448239654, guid: 81901501e28b4b8458b3ced5d4a08721,
         type: 3}
       propertyPath: m_Name
@@ -727,6 +717,16 @@ PrefabInstance:
         type: 3}
       propertyPath: deathtime
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -1417561613936237091, guid: 81901501e28b4b8458b3ced5d4a08721,
+        type: 3}
+      propertyPath: CollisionTag
+      value: Untagged
+      objectReference: {fileID: 0}
+    - target: {fileID: -1417561613936237091, guid: 81901501e28b4b8458b3ced5d4a08721,
+        type: 3}
+      propertyPath: PlayEvent
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81901501e28b4b8458b3ced5d4a08721, type: 3}

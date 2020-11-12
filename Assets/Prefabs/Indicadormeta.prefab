@@ -82,8 +82,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.35068703, y: 5.8785095, z: 0.51799095}
-  m_Center: {x: -0.0072144363, y: 0.73147583, z: 0.005605195}
+  m_Size: {x: 0.10680753, y: 3.9548645, z: 0.16580726}
+  m_Center: {x: 0.013464567, y: 1.6932983, z: 0.03993777}
 --- !u!114 &420691357082704785
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,3 +97,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Gestor: {fileID: 0}
+  waitTimeload: 1
