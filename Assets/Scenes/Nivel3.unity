@@ -979,6 +979,21 @@ PrefabInstance:
       propertyPath: jugador
       value: 
       objectReference: {fileID: 167291974}
+    - target: {fileID: -2238471233637998927, guid: e1f204d5aa53f4c4792165a642a6aaff,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2238471233637998927, guid: e1f204d5aa53f4c4792165a642a6aaff,
+        type: 3}
+      propertyPath: TriggerOnce
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2238471233637998927, guid: e1f204d5aa53f4c4792165a642a6aaff,
+        type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1f204d5aa53f4c4792165a642a6aaff, type: 3}
 --- !u!1001 &6454862532687466198
