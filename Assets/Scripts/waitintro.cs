@@ -16,7 +16,7 @@ public class waitintro : MonoBehaviour
 
     
         yield return new WaitForSeconds(waitTime);
-        SceneManager.LoadScene("Nivel1");
+        SceneManager.LoadScene("Menu");
     }
    
 }
