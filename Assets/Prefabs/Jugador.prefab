@@ -124,3 +124,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rbJugador: {fileID: 7679870662196765470}
   velocidad: 7000
+  velocidadCaida: 0
