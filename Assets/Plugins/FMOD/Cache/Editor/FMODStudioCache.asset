@@ -22,7 +22,30 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 1500
+  Length: 750
+--- !u!114 &-6310721768791578757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Empezar
+  m_EditorClassIdentifier: 
+  Path: event:/Empezar
+  guid: 046971a2a48aff41bfd8e32f93ddbcc6
+  Banks:
+  - {fileID: -5187723527991384147}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2250
 --- !u!114 &-5891672991471111910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,7 +105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/Build/Desktop/SoundFX.bank
   Name: SoundFX
-  lastModified: 637430472301114175
+  lastModified: 637432232668775867
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -146,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/Build/Desktop/musica.bank
   Name: musica
-  lastModified: 637430472296923935
+  lastModified: 637432232667945820
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -177,12 +200,15 @@ MonoBehaviour:
   - {fileID: 4531633709613892337}
   - {fileID: -8639867460158925312}
   - {fileID: -5891672991471111910}
+  - {fileID: 6543903436409101336}
+  - {fileID: 8677208563936666381}
+  - {fileID: -6310721768791578757}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8232251700583527002}
   StringsBanks:
   - {fileID: 5351113511657391762}
-  stringsBankWriteTime: 637430472228640030
+  stringsBankWriteTime: 637432232667685805
   cacheVersion: 4
 --- !u!114 &964298119771547079
 MonoBehaviour:
@@ -229,7 +255,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 281074
+  Length: 280574
 --- !u!114 &4531633709613892337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -313,12 +339,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637430472228640030
+  lastModified: 637432232667685805
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1190
+    Value: 1302
   Exists: 1
+--- !u!114 &6543903436409101336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Win
+  m_EditorClassIdentifier: 
+  Path: event:/Win
+  guid: 114d157752152048aef26ddf1f5f8597
+  Banks:
+  - {fileID: -5187723527991384147}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1127
 --- !u!114 &7718535142253012414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -355,7 +404,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637430472228610028
+  lastModified: 637432232667665804
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &8677208563936666381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/aparecer
+  m_EditorClassIdentifier: 
+  Path: event:/aparecer
+  guid: 4f189ea327e44e44b851382ad9f33330
+  Banks:
+  - {fileID: -5187723527991384147}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 750

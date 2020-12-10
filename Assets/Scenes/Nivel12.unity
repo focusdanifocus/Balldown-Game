@@ -1159,6 +1159,11 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1042427066}
+    - target: {fileID: 4447315335683523925, guid: 9ebe832899ae7954a9c0249729ebbb0e,
+        type: 3}
+      propertyPath: rotationSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4447315335683523935, guid: 9ebe832899ae7954a9c0249729ebbb0e,
         type: 3}
       propertyPath: bloque2
@@ -1169,11 +1174,6 @@ PrefabInstance:
       propertyPath: This
       value: 
       objectReference: {fileID: 1759818971}
-    - target: {fileID: 4447315335683523925, guid: 9ebe832899ae7954a9c0249729ebbb0e,
-        type: 3}
-      propertyPath: rotationSpeed
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ebe832899ae7954a9c0249729ebbb0e, type: 3}
 --- !u!1 &963194225
@@ -1186,7 +1186,6 @@ GameObject:
   m_Component:
   - component: {fileID: 963194228}
   - component: {fileID: 963194227}
-  - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
@@ -1195,14 +1194,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &963194226
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0

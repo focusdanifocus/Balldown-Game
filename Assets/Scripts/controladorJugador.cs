@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class controladorJugador : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class controladorJugador : MonoBehaviour
     public Rigidbody rbJugador;
     public float velocidad;
     public float velocidadCaida;
+    
+    
 
 
     public void Update()
@@ -18,6 +21,7 @@ public class controladorJugador : MonoBehaviour
             Application.Quit();
         }
     }
+     
   
     
     public void FixedUpdate()
