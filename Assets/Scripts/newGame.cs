@@ -5,20 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class newGame : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public AudioSource mySounds;
+    public AudioClip Empezar;
+    public float WaitTimeLoad;
 
     public void loadnewGame()
     {
+        StartCoroutine(waitforLoad());
+    }
+
+    public void StartSound(){
+        mySounds.PlayOneShot(Empezar);
+        DontDestroyOnLoad(Empezar);
+    }
+    IEnumerator waitforLoad()
+    {
+
+    
+        yield return new WaitForSeconds(WaitTimeLoad);
         SceneManager.LoadScene("Nivel1");
+    
+        
     }
 }

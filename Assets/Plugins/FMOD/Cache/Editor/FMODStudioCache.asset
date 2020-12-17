@@ -105,7 +105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/Build/Desktop/SoundFX.bank
   Name: SoundFX
-  lastModified: 637432232668775867
+  lastModified: 637438236567382132
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/Build/Desktop/musica.bank
   Name: musica
-  lastModified: 637432232667945820
+  lastModified: 637438236565992053
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -208,7 +208,7 @@ MonoBehaviour:
   - {fileID: 8232251700583527002}
   StringsBanks:
   - {fileID: 5351113511657391762}
-  stringsBankWriteTime: 637432232667685805
+  stringsBankWriteTime: 637438236562771869
   cacheVersion: 4
 --- !u!114 &964298119771547079
 MonoBehaviour:
@@ -278,7 +278,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 200
+  Length: 137
 --- !u!114 &4670499560562789617
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,7 +339,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637432232667685805
+  lastModified: 637438236562771869
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -404,7 +404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../../../Meet Design/DAGS/Proyectos FMOD/BallDownGame/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637432232667665804
+  lastModified: 637438236562761868
   LoadResult: 0
   FileSizes: []
   Exists: 1
